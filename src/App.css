@@ -1,6 +1,43 @@
  /* DEFAULT CSS */
-.main_header{
-  background-color: black;
-  height: 20rem;
-  
+.landing_page_main{
+  padding: 2.5rem;
+}
+
+.landing_page{
+  padding: 2.5rem;
+  background-color: #FFD6B0;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+
+}
+
+.header_nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_box{
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 7%;
+
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links ul{
+  display: flex;
+}
+
+.links ul li {
+  padding: 1rem ;
+  list-style: none;
 }
