@@ -11,16 +11,27 @@ const App = () => {
           </div>
           <div className="links">
             <ul>
-              <li>Courses</li>
-              <li>About Us</li>
-              <li>Teachers</li>
-              <li>Pricing</li>
-              <li>Careers</li>
+              <li>
+                {" "}
+                <a href="">Courses</a>
+              </li>
+              <li>
+                <a href="">About Us</a>
+              </li>
+              <li>
+                <a href="">Teachers</a>
+              </li>
+              <li>
+                <a href="">Pricing</a>
+              </li>
+              <li>
+                <a href="">Careers</a>
+              </li>
             </ul>
           </div>
           <CustomButton
-            textColor="white"
-            bgColor="#EC884D"
+            textColor="#EC884D"
+            bgColor="white"
             text="Get Started"
             width="100px"
             padding="10px"
@@ -28,6 +39,13 @@ const App = () => {
             hoverTextColor="white"
             hoverBgColor="#E47331"
           />
+        </div>
+
+        <div className="landing_body">
+          <div className="landing_text">
+            Empowering Tomorrow's Innovators: A Fun and Educational Journey in
+            Coding for Kids
+          </div>
         </div>
       </div>
     </div>

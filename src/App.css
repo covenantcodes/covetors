@@ -8,8 +8,7 @@
   background-color: #FFD6B0;
   border-radius: 40px;
   display: flex;
-  align-items: center;
-
+  flex-direction: column;
 }
 
 .header_nav{
@@ -33,6 +32,7 @@
   justify-content: center;
 }
 
+
 .links ul{
   display: flex;
 }
@@ -40,4 +40,32 @@
 .links ul li {
   padding: 1rem ;
   list-style: none;
+}
+
+.links ul li a{
+  padding-bottom: .2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.links ul li a:hover{
+  border-bottom: 4px solid #EC884D;
+  transition: .3s all
+}
+.links ul li a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  border-bottom: 4px solid #EC884D; /* Initial border position and color */
+  transition: width 0.3s ease-in-out; /* Add a transition for smooth animation */
+}
+
+.links ul li a:hover::before {
+  width: 100%; /* Expand the border from left to right on hover */
+}
+
+.landing_body{
+  border: 1px solid red;
 }

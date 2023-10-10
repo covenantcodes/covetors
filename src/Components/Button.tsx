@@ -32,7 +32,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
     borderRadius: '73px',
     border: 'none',
     cursor: 'pointer',
-    transition: 'all 0.3s',
+    transition: 'all 0.3s ease-in-out',
   };
 
   const handleMouseEnter = () => {
