@@ -65,7 +65,6 @@
 }
 
 .landing_text {
-  border: 1px solid red;
   width: 100%;
   font-size: 56px;
   font-weight: 500;
@@ -97,12 +96,18 @@
 }
 
 .program_main {
-  border: 1px solid red;
   padding: 4rem 12rem;
 }
 
+.program_main_header{
+    color: #4d7a9d;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
 .program_box {
-  border: 1px solid red;
   padding: 2rem;
   background-color: #e7651acd;
   display: flex;
@@ -121,8 +126,7 @@
   background-color: white;
   transition: 0.3s all ease-in-out;
   /* cursor: pointer; */
-  
-
+  transform: scale(1.05);
 }
 
 .program_title {
@@ -140,4 +144,27 @@
 .program_subtitle {
   color: #fff;
   padding-top: 1rem;
+}
+
+.classes_section {
+  padding: 4rem 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.class_box{
+
+}
+
+.class_box_text{
+  font-family: "Autour One";
+  color: #ec884d;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.class_box img{
+  width: 50%;
 }

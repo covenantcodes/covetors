@@ -73,6 +73,7 @@ const App = () => {
       </div>
 
       <div className="program_main">
+        <div className="program_main_header">WHY CHOOSE US</div>
         <div className="program_box">
           <div className="program_section">
             <div className="program_title">Programs</div>
@@ -101,6 +102,18 @@ const App = () => {
               Our programs are designed to <br /> develop your children
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="classes_section">
+        <div className="class_box">
+          <div className="class_box_text">
+            Personal In-Person <br />
+            classroom encouraged <br /> students to
+          </div>
+        </div>
+        <div className="class_box">
+            <img src="../img/classes.jpg" alt="" />
         </div>
       </div>
     </div>
