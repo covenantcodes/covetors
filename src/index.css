@@ -1,17 +1,18 @@
-
 /* GOOGLE FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Autour+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /* Root Styles */
 :root {
-  --primary-color: #EC884D;
-  --secondary-color: #4D7A9D;
-  --text-color: #525C60;
-  --normal-font-family:'Raleway', sans-serif;
+  --primary-color: #ec884d;
+  --secondary-color: #4d7a9d;
+  --text-color: #525c60;
+  --normal-font-family: "Raleway", sans-serif;
   --font-size: 16px;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }

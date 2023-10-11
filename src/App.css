@@ -1,71 +1,143 @@
- /* DEFAULT CSS */
-.landing_page_main{
+/* DEFAULT CSS */
+.landing_page_main {
   padding: 2.5rem;
 }
 
-.landing_page{
-  padding: 2.5rem;
-  background-color: #FFD6B0;
+.landing_page {
+  padding: 4rem;
+  background-color: #f7e0da82;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
 }
 
-.header_nav{
+.header_nav {
   display: flex;
   justify-content: space-between;
 }
 
-.logo_box{
+.logo_box {
   width: 30%;
   display: flex;
   align-items: center;
 }
-.logo{
-  width: 7%;
-
+.logo {
+  width: 40%;
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-.links ul{
+.links ul {
   display: flex;
 }
 
 .links ul li {
-  padding: 1rem ;
+  padding: 1rem;
   list-style: none;
 }
 
-.links ul li a{
-  padding-bottom: .2rem;
+.links ul li a {
+  padding-bottom: 0.2rem;
   text-decoration: none;
   color: #000;
 }
 
-.links ul li a:hover{
-  border-bottom: 4px solid #EC884D;
-  transition: .3s all
-}
-.links ul li a::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  border-bottom: 4px solid #EC884D; /* Initial border position and color */
-  transition: width 0.3s ease-in-out; /* Add a transition for smooth animation */
+.links ul li a:hover {
+  border-bottom: 4px solid #ec884d;
+  transition: 0.3s all;
+  font-weight: bold;
 }
 
-.links ul li a:hover::before {
-  width: 100%; /* Expand the border from left to right on hover */
+.landing_body {
+  padding: 1rem 0rem;
+  display: flex;
 }
 
-.landing_body{
+.landing_text_body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+.landing_text {
   border: 1px solid red;
+  width: 100%;
+  font-size: 56px;
+  font-weight: 500;
+  font-family: "Autour One";
+}
+
+.landing_subtext {
+  width: 100%;
+  padding: 1rem 0rem;
+  color: #666680;
+  font-style: italic;
+}
+
+.span_text {
+  color: #ec884d;
+  font-family: "Autour One";
+  font-weight: bolder;
+}
+
+.landing_img_box {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.landing_img {
+  width: 90%;
+}
+
+.program_main {
+  border: 1px solid red;
+  padding: 4rem 12rem;
+}
+
+.program_box {
+  border: 1px solid red;
+  padding: 2rem;
+  background-color: #e7651acd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2rem;
+}
+
+.program_section {
+  border: 1px solid white;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.program_section:hover {
+  background-color: white;
+  transition: 0.3s all ease-in-out;
+  /* cursor: pointer; */
+  
+
+}
+
+.program_title {
+  color: #fff;
+  font-family: "Autour One";
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.program_section:hover .program_title,
+.program_section:hover .program_subtitle {
+  color: #ec884d;
+  transition: 0.3s all ease-in-out;
+}
+.program_subtitle {
+  color: #fff;
+  padding-top: 1rem;
 }

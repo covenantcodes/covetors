@@ -7,7 +7,7 @@ const App = () => {
       <div className="landing_page">
         <div className="header_nav">
           <div className="logo_box">
-            <img src="../img/icon.png" alt="" className="logo" />
+            <img src="../img/logo.png" alt="" className="logo" />
           </div>
           <div className="links">
             <ul>
@@ -33,8 +33,9 @@ const App = () => {
             textColor="#EC884D"
             bgColor="white"
             text="Get Started"
-            width="100px"
-            padding="10px"
+            width="130px"
+            padding="20px"
+            fontSize="15px"
             fontWeight="bold"
             hoverTextColor="white"
             hoverBgColor="#E47331"
@@ -42,9 +43,63 @@ const App = () => {
         </div>
 
         <div className="landing_body">
-          <div className="landing_text">
-            Empowering Tomorrow's Innovators: A Fun and Educational Journey in
-            Coding for Kids
+          <div className="landing_text_body">
+            <div className="landing_text">
+              <span className="span_text"> Unlock </span> your <br />{" "}
+              <span className="span_text"> Child's </span>Potentials
+            </div>
+            <div className="landing_subtext">
+              Learn at your own pace, we have tutors <br />
+              that can work with your schedules
+            </div>
+
+            <CustomButton
+              textColor="white"
+              bgColor="#ec884d"
+              text="Get Started"
+              width="130px"
+              padding="20px"
+              fontSize="15px"
+              fontWeight="bold"
+              hoverTextColor="#ec884d"
+              hoverBgColor="white"
+            />
+          </div>
+
+          <div className="landing_img_box">
+            <img src="../img/landing_img.png" alt="" className="landing_img" />
+          </div>
+        </div>
+      </div>
+
+      <div className="program_main">
+        <div className="program_box">
+          <div className="program_section">
+            <div className="program_title">Programs</div>
+            <div className="program_subtitle">
+              Our programs are designed to <br /> develop your children
+            </div>
+          </div>
+
+          <div className="program_section">
+            <div className="program_title">Creative Thinking</div>
+            <div className="program_subtitle">
+              Our programs are designed to <br /> develop your children
+            </div>
+          </div>
+
+          <div className="program_section">
+            <div className="program_title">Creative Thinking</div>
+            <div className="program_subtitle">
+              Our programs are designed to <br /> develop your children
+            </div>
+          </div>
+
+          <div className="program_section">
+            <div className="program_title">Creative Thinking</div>
+            <div className="program_subtitle">
+              Our programs are designed to <br /> develop your children
+            </div>
           </div>
         </div>
       </div>

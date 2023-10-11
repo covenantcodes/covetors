@@ -6,6 +6,7 @@ interface CustomButtonProps {
   text: string;
   width: string;
   padding: string;
+  fontSize: string;
   fontWeight: string;
   hoverTextColor: string;
   hoverBgColor: string;
@@ -17,6 +18,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
   text,
   width,
   padding,
+  fontSize,
   fontWeight,
   hoverTextColor,
   hoverBgColor,
@@ -29,6 +31,7 @@ const CustomButton: React.FC<CustomButtonProps> = ({
     width: width,
     padding: padding,
     fontWeight: fontWeight,
+    fontSize: fontSize,
     borderRadius: '73px',
     border: 'none',
     cursor: 'pointer',
