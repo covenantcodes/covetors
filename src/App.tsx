@@ -43,10 +43,15 @@ const App = () => {
         </div>
 
         <div className="landing_body">
+        <div className="extras_one">
+                {/* <img src="../img/girl2.png" alt="" className="extras_img"/> */}
+                <img src="../img/boy2.png" alt="" className="extras_img"/>
+          </div>
           <div className="landing_text_body">
             <div className="landing_text">
-              <span className="span_text"> Unlock </span> your <br />{" "}
-              <span className="span_text"> Child's </span>Potentials
+              <span className="span_text"> Unlock </span> your Child's{" "}
+              <span className="span_text"> Potentials</span> with Our{" "}
+              <span className="span_text"> Exciting</span> Programs
             </div>
             <div className="landing_subtext">
               Learn at your own pace, we have tutors <br />
@@ -66,8 +71,9 @@ const App = () => {
             />
           </div>
 
-          <div className="landing_img_box">
-            <img src="../img/landing_img.png" alt="" className="landing_img" />
+          <div className="extras">
+                <img src="../img/boy.png" alt="" className="extras_img"/>
+                <img src="../img/girl.png" alt="" className="extras_img"/>
           </div>
         </div>
       </div>
@@ -75,9 +81,9 @@ const App = () => {
       <div className="program_main">
         <div className="program_main_header">WHY CHOOSE US</div>
         <div className="program_box">
-          <div className="program_section">
-            <div className="program_title">Programs</div>
-            <div className="program_subtitle">
+          <div className="program_section_one">
+            <div className="program_title_one">Programs</div>
+            <div className="program_subtitle_one">
               Our programs are designed to <br /> develop your children
             </div>
           </div>
@@ -89,9 +95,9 @@ const App = () => {
             </div>
           </div>
 
-          <div className="program_section">
-            <div className="program_title">Creative Thinking</div>
-            <div className="program_subtitle">
+          <div className="program_section_one">
+            <div className="program_title_one">Creative Thinking</div>
+            <div className="program_subtitle_one">
               Our programs are designed to <br /> develop your children
             </div>
           </div>
@@ -107,13 +113,108 @@ const App = () => {
 
       <div className="classes_section">
         <div className="class_box">
-          <div className="class_box_text">
-            Personal In-Person <br />
-            classroom encouraged <br /> students to
+          <div className="class_box_content">
+            <div className="class_box_text">
+              Our Personal In-Person <br />
+              classroom encouraged <br /> students to
+            </div>
+
+            <div className="content_list">
+              <div className="content_list_box">
+                <img
+                  src="../img/checked.png"
+                  alt=""
+                  className="content_list_item_img"
+                />
+              </div>
+              <div className="content_list_item">
+                Focus on long period of time
+              </div>
+            </div>
+
+            <div className="content_list">
+              <div className="content_list_box">
+                <img
+                  src="../img/checked.png"
+                  alt=""
+                  className="content_list_item_img"
+                />
+              </div>
+              <div className="content_list_item">
+                Focus on long period of time
+              </div>
+            </div>
+
+            <div className="content_list">
+              <div className="content_list_box">
+                <img
+                  src="../img/checked.png"
+                  alt=""
+                  className="content_list_item_img"
+                />
+              </div>
+              <div className="content_list_item">
+                Focus on long period of time
+              </div>
+            </div>
           </div>
         </div>
         <div className="class_box">
+          <div className="class_box_content">
             <img src="../img/classes.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="superstars_container">
+        <div className="superstar_header">Meet our SuperStars</div>
+
+        <div className="superstars_main">
+          {/* <div className="superstars_box">
+            <img src="../img/1.jpg" alt="" />
+            <div className="superstar_name">Sekina Daniel</div>
+          </div>
+
+          <div className="superstars_box">
+            <img src="../img/1.jpg" alt="" />
+            <div className="superstar_name">Sekina Daniel</div>
+          </div> */}
+
+          <div className="superstars_box">
+            <img src="../img/1.jpg" alt="" className="superstars_box_img" />
+            <div className="superstar_name_box">
+              <img
+                src="../img/canada.png"
+                alt=""
+                className="superstars_flag_img"
+              />
+              <div className="superstar_name">Sekina Daniel</div>
+            </div>
+          </div>
+
+          <div className="superstars_box">
+            <img src="../img/2.jpg" alt="" className="superstars_box_img" />
+            <div className="superstar_name_box">
+              <img
+                src="../img/canada.png"
+                alt=""
+                className="superstars_flag_img"
+              />
+              <div className="superstar_name">Sekina Daniel</div>
+            </div>
+          </div>
+
+          <div className="superstars_box">
+            <img src="../img/3.jpg" alt="" className="superstars_box_img" />
+            <div className="superstar_name_box">
+              <img
+                src="../img/canada.png"
+                alt=""
+                className="superstars_flag_img"
+              />
+              <div className="superstar_name">Sekina Daniel</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

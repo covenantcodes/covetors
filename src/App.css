@@ -50,17 +50,23 @@
   border-bottom: 4px solid #ec884d;
   transition: 0.3s all;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .landing_body {
-  padding: 1rem 0rem;
+  height: 70vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .landing_text_body {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
+  /* text-align: center; */
   width: 60%;
 }
 
@@ -76,6 +82,7 @@
   padding: 1rem 0rem;
   color: #666680;
   font-style: italic;
+  text-align: center;
 }
 
 .span_text {
@@ -84,27 +91,36 @@
   font-weight: bolder;
 }
 
-.landing_img_box {
-  width: 70%;
+.extras {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding-top: 5rem;
 }
 
-.landing_img {
-  width: 90%;
+.extras_one {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.extras_img {
+  width: 10%;
+  filter: drop-shadow(10px 3px 3px #ec874d51);
 }
 
 .program_main {
   padding: 4rem 12rem;
 }
 
-.program_main_header{
-    color: #4d7a9d;
-    font-weight: 600;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
+.program_main_header {
+  color: #4d7a9d;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
 }
 
 .program_box {
@@ -122,6 +138,12 @@
   border-radius: 2rem;
 }
 
+.program_section_one{
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color:white;
+}
+
 .program_section:hover {
   background-color: white;
   transition: 0.3s all ease-in-out;
@@ -136,35 +158,131 @@
   font-weight: bold;
 }
 
+.program_title_one {
+  color: #ec884d;
+  font-family: "Autour One";
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 .program_section:hover .program_title,
 .program_section:hover .program_subtitle {
   color: #ec884d;
   transition: 0.3s all ease-in-out;
 }
+
+.program_section_one:hover{
+  border: 1px solid white;
+  background-color: #ec884d;
+  transition: 0.3s all ease-in-out;
+  transform: scale(0.9);
+
+} 
+.program_section_one:hover .program_title_one,
+.program_section_one:hover .program_subtitle_one {
+  color: white;
+  transition: 0.3s all ease-in-out;
+}
+
 .program_subtitle {
   color: #fff;
   padding-top: 1rem;
 }
+
+.program_subtitle_one{
+  color: #ec884d;
+  padding-top: 1rem;
+}
+
 
 .classes_section {
   padding: 4rem 12rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
-.class_box{
-
+.class_box {
+  flex: 1;
 }
 
-.class_box_text{
+.class_box_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.class_box img {
+  width: 100%;
+  border-radius: 4rem;
+}
+
+.class_box_text {
   font-family: "Autour One";
   color: #ec884d;
   font-size: 3rem;
   font-weight: bold;
 }
 
-.class_box img{
-  width: 50%;
+.content_list {
+  display: flex;
+  padding: 1rem;
+}
+.content_list_box {
+  width: 3%;
+}
+
+.content_list_item {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-family: "Autour One";
+}
+
+.content_list_item_img {
+  /* width: %; */
+  /* border: none; */
+}
+
+.superstars_container {
+  padding: 2rem 12rem;
+  color: #ec884d;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.superstar_header {
+  font-family: "Autour One";
+}
+
+.superstars_main {
+  border: 1px solid red;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.superstars_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.superstars_box_img {
+  width: 70%;
+  border-radius: 1.5rem;
+}
+
+.superstar_name_box {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.superstar_name {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.superstars_flag_img {
+  width: 15%;
 }
