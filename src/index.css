@@ -11,6 +11,10 @@
   --font-size: 16px;
 }
 
+/* icons import */
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+
 * {
   margin: 0;
   padding: 0;

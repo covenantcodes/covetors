@@ -235,6 +235,7 @@
   padding-left: 1rem;
   font-size: 1.2rem;
   font-family: "Autour One";
+  color: #ec884d;
 }
 
 .content_list_item_img {
@@ -253,22 +254,28 @@
 }
 
 .superstars_main {
-  border: 1px solid red;
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
 }
 
 .superstars_box {
+  width: 35%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.superstars_box_img_container{
+    display: flex;
+    /* justify-content: center; */
 }
 
 .superstars_box_img {
-  width: 70%;
+  width: 95%;
   border-radius: 1.5rem;
 }
+
 
 .superstar_name_box {
   padding-top: 1rem;

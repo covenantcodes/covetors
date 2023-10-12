@@ -43,9 +43,9 @@ const App = () => {
         </div>
 
         <div className="landing_body">
-        <div className="extras_one">
-                {/* <img src="../img/girl2.png" alt="" className="extras_img"/> */}
-                <img src="../img/boy2.png" alt="" className="extras_img"/>
+          <div className="extras_one">
+            {/* <img src="../img/girl2.png" alt="" className="extras_img"/> */}
+            <img src="../img/boy2.png" alt="" className="extras_img" />
           </div>
           <div className="landing_text_body">
             <div className="landing_text">
@@ -72,8 +72,8 @@ const App = () => {
           </div>
 
           <div className="extras">
-                <img src="../img/boy.png" alt="" className="extras_img"/>
-                <img src="../img/girl.png" alt="" className="extras_img"/>
+            <img src="../img/boy.png" alt="" className="extras_img" />
+            <img src="../img/girl.png" alt="" className="extras_img" />
           </div>
         </div>
       </div>
@@ -170,49 +170,45 @@ const App = () => {
         <div className="superstar_header">Meet our SuperStars</div>
 
         <div className="superstars_main">
-          {/* <div className="superstars_box">
-            <img src="../img/1.jpg" alt="" />
-            <div className="superstar_name">Sekina Daniel</div>
-          </div>
-
           <div className="superstars_box">
-            <img src="../img/1.jpg" alt="" />
-            <div className="superstar_name">Sekina Daniel</div>
-          </div> */}
-
-          <div className="superstars_box">
-            <img src="../img/1.jpg" alt="" className="superstars_box_img" />
+            <div className="superstars_box_img_container">
+              <img src="../img/2.jpg" alt="" className="superstars_box_img" />
+            </div>
             <div className="superstar_name_box">
               <img
-                src="../img/canada.png"
+                src="../img/uk-flag.jpg"
                 alt=""
                 className="superstars_flag_img"
               />
-              <div className="superstar_name">Sekina Daniel</div>
+              <div className="superstar_name">Evelyn Bridgeton</div>
             </div>
           </div>
 
           <div className="superstars_box">
-            <img src="../img/2.jpg" alt="" className="superstars_box_img" />
+            <div className="superstars_box_img_container">
+              <img src="../img/1.jpg" alt="" className="superstars_box_img" />
+            </div>
             <div className="superstar_name_box">
               <img
-                src="../img/canada.png"
+                src="../img/canada.jpg"
                 alt=""
                 className="superstars_flag_img"
               />
-              <div className="superstar_name">Sekina Daniel</div>
+              <div className="superstar_name">Leona Brown</div>
             </div>
           </div>
 
           <div className="superstars_box">
-            <img src="../img/3.jpg" alt="" className="superstars_box_img" />
+            <div className="superstars_box_img_container">
+              <img src="../img/3.jpg" alt="" className="superstars_box_img" />
+            </div>
             <div className="superstar_name_box">
               <img
-                src="../img/canada.png"
+                src="../img/ng_flag.jpg"
                 alt=""
                 className="superstars_flag_img"
               />
-              <div className="superstar_name">Sekina Daniel</div>
+              <div className="superstar_name">Fikayo Oluwadarasimi</div>
             </div>
           </div>
         </div>
