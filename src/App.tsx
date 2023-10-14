@@ -160,8 +160,8 @@ const App = () => {
           </div>
         </div>
         <div className="class_box">
-          <div className="class_box_content">
-            <img src="../img/classes.jpg" alt="" />
+          <div className="class_box_image_container">
+            <img src="../img/cartoon.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -213,7 +213,81 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      <div className="footer">
+        <div
+          className="footer_box"
+        >
+          <div className="footer_subheader">Contact Us</div>
+          <div className="footer_item">
+            <div className="footer_item_header">Email</div>
+            <div className="footer_item_text">needhelp@Organick.com</div>
+          </div>
+
+          <div className="footer_item">
+            <div className="footer_item_header">Phone</div>
+            <div className="footer_item_text">666 888 888</div>
+          </div>
+
+          <div className="footer_item">
+            <div className="footer_item_header">Address</div>
+            <div className="footer_item_text">88 road, borklyn street, USA</div>
+          </div>
+        </div>
+
+        <div className="footer_about_box"
+        >
+          <div className="footer_logo">
+            <img src="img/Logo.png" alt="" />
+            Organick
+          </div>
+          <div className="footer_item">
+            <div className="footer_about_text">
+              Simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum simply dummy text of the printing
+            </div>
+          </div>
+
+          <div className="footer_socials">
+            <div className="footer_social_box">
+              <i className="fa-brands fa-instagram"></i>
+            </div>
+
+            <div className="footer_social_box">
+              <i className="fa-brands fa-facebook"></i>
+            </div>
+
+            <div className="footer_social_box">
+              <i className="fa-brands fa-twitter"></i>
+            </div>
+
+            <div className="footer_social_box">
+              <i className="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="footer_box"
+        >
+          <div className="footer_utility_subheader">Utility</div>
+          <div className="footer_item">
+            <div className="footer_utility_text">needhelp@Organick.com</div>
+          </div>
+
+          <div className="footer_item">
+            <div className="footer_utility_text">666 888 888</div>
+          </div>
+
+          <div className="footer_item">
+            <div className="footer_utility_text">
+              88 road, Brooklyn street, USA
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
   );
 };
 

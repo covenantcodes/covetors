@@ -138,10 +138,10 @@
   border-radius: 2rem;
 }
 
-.program_section_one{
+.program_section_one {
   padding: 2rem;
   border-radius: 2rem;
-  background-color:white;
+  background-color: white;
 }
 
 .program_section:hover {
@@ -171,13 +171,12 @@
   transition: 0.3s all ease-in-out;
 }
 
-.program_section_one:hover{
+.program_section_one:hover {
   border: 1px solid white;
   background-color: #ec884d;
   transition: 0.3s all ease-in-out;
   transform: scale(0.9);
-
-} 
+}
 .program_section_one:hover .program_title_one,
 .program_section_one:hover .program_subtitle_one {
   color: white;
@@ -189,11 +188,10 @@
   padding-top: 1rem;
 }
 
-.program_subtitle_one{
+.program_subtitle_one {
   color: #ec884d;
   padding-top: 1rem;
 }
-
 
 .classes_section {
   padding: 4rem 12rem;
@@ -203,7 +201,7 @@
 }
 
 .class_box {
-  flex: 1;
+  width: 50%;
 }
 
 .class_box_content {
@@ -211,9 +209,13 @@
   flex-direction: column;
 }
 
+.class_box_image_container{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .class_box img {
-  width: 100%;
-  border-radius: 4rem;
+  width: 70%;
 }
 
 .class_box_text {
@@ -228,7 +230,7 @@
   padding: 1rem;
 }
 .content_list_box {
-  width: 3%;
+  width: 6%;
 }
 
 .content_list_item {
@@ -239,8 +241,7 @@
 }
 
 .content_list_item_img {
-  /* width: %; */
-  /* border: none; */
+  width: 100%;
 }
 
 .superstars_container {
@@ -266,16 +267,15 @@
   justify-content: space-between;
 }
 
-.superstars_box_img_container{
-    display: flex;
-    /* justify-content: center; */
+.superstars_box_img_container {
+  display: flex;
+  /* justify-content: center; */
 }
 
 .superstars_box_img {
   width: 95%;
   border-radius: 1.5rem;
 }
-
 
 .superstar_name_box {
   padding-top: 1rem;
@@ -292,4 +292,108 @@
 
 .superstars_flag_img {
   width: 15%;
+}
+
+.footer {
+  padding: 3rem 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_box {
+  width: 30%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_subheader {
+  font-family: "Autour One";
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  padding: 1rem;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.footer_item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.footer_item_header {
+  font-family: "Autour One";
+  align-self: flex-end;
+  color: var(--primary-color);
+  align-self: flex-end;
+}
+
+.footer_item_text {
+  align-self: flex-end;
+}
+
+.footer_about_box {
+  width: 40%;
+  border-right: 1px solid #d4d4d4;
+  border-left: 1px solid #d4d4d4;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Autour One";
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  width: 100%;
+}
+
+.footer_logo img {
+  width: 5%;
+  padding-right: 10px;
+}
+
+.footer_about_text {
+  text-align: center;
+}
+
+.footer_utility_subheader {
+  font-family: "Autour One";
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.footer_utility_text {
+}
+
+.footer_socials {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.footer_social_box {
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff6f1;
+}
+
+.fa-brands {
+  color: var(--primary-color);
+  font-size: 20px;
 }
