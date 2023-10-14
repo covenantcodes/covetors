@@ -114,55 +114,145 @@ const App = () => {
       <div className="classes_section">
         <div className="class_box">
           <div className="class_box_content">
+            ]
             <div className="class_box_text">
-              Our Personal In-Person <br />
-              classroom encouraged <br /> students to
+              Our Personal{" "}
+              <span className="span_text"> In-Person Classroom </span>
+              encourges
             </div>
+            <div className="classroom_benefits_main">
+              <div className="classroom_benefits_container">
+                <div className="classroom_benefits_pic_container">
+                  <img src="../img/focus.png" alt="" />
+                </div>
+                <div className="classroom_benefits_text">
+                  <div className="classroom_benefits_head_text">
+                    Improved Focus
+                  </div>
+                  <div className="classroom_benefits_text_body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quas facilis ad assumenda dolorum, voluptatum minima veniam
+                    earum quasi laborum, dolor deserunt? Modi magni sunt
+                    mollitia labore optio velit voluptate? Libero!
+                  </div>
+                </div>
+              </div>
 
-            <div className="content_list">
-              <div className="content_list_box">
-                <img
-                  src="../img/checked.png"
-                  alt=""
-                  className="content_list_item_img"
-                />
-              </div>
-              <div className="content_list_item">
-                Focus on long period of time
-              </div>
-            </div>
-
-            <div className="content_list">
-              <div className="content_list_box">
-                <img
-                  src="../img/checked.png"
-                  alt=""
-                  className="content_list_item_img"
-                />
-              </div>
-              <div className="content_list_item">
-                Focus on long period of time
-              </div>
-            </div>
-
-            <div className="content_list">
-              <div className="content_list_box">
-                <img
-                  src="../img/checked.png"
-                  alt=""
-                  className="content_list_item_img"
-                />
-              </div>
-              <div className="content_list_item">
-                Focus on long period of time
+              <div className="classroom_benefits_container">
+                <div className="classroom_benefits_pic_container">
+                  <img src="../img/fast.png" alt="" />
+                </div>
+                <div className="classroom_benefits_text">
+                  <div className="classroom_benefits_head_text">
+                    Improved Focus
+                  </div>
+                  <div className="classroom_benefits_text_body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quas facilis ad assumenda dolorum, voluptatum minima veniam
+                    earum quasi laborum, dolor deserunt? Modi magni sunt
+                    mollitia labore optio velit voluptate? Libero!
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="class_box">
           <div className="class_box_image_container">
-            <img src="../img/cartoon.jpg" alt="" />
+            <img src="../img/cartoon2.jpg" alt="" />
           </div>
+        </div>
+      </div>
+
+      <div className="testimonial_section">
+        <div className="testimonial_section_header">What People Say</div>
+
+        <div className="testimonial_section_container">
+          <div className="testimonial_section_container_box">
+            <div className="testimonial_section_container_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              aperiam nihil laborum neque perspiciatis numquam nisi. Corporis
+              eligendi inventore necessitatibus perferendis tempore. Laboriosam
+              consequatur cupiditate sit eligendi at, unde autem.
+            </div>
+            <div className="testimonial_profile_section">
+              <div className="testimonial_profile_pic">
+                <img src="../img/hs1.jpg" alt="" />
+              </div>
+
+              <div>
+                <div className="testimonial_profile_name">
+                    Daisy Brown
+                </div>
+
+                <div className="testimonial_profile_description">
+                    Parent
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="testimonial_section">
+        <div className="testimonial_section_header">What People Say</div>
+
+        <div className="testimonial_section_container">
+          <div className="testimonial_section_container_box">
+            <div className="testimonial_section_container_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              aperiam nihil laborum neque perspiciatis numquam nisi. Corporis
+              eligendi inventore necessitatibus perferendis tempore. Laboriosam
+              consequatur cupiditate sit eligendi at, unde autem.
+            </div>
+            <div className="testimonial_profile_section">
+              <div className="testimonial_profile_pic">
+                <img src="../img/hs1.jpg" alt="" />
+              </div>
+
+              <div>
+                <div className="testimonial_profile_name">
+                    Daisy Brown
+                </div>
+
+                <div className="testimonial_profile_description">
+                    Parent
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div className="testimonial_section">
+        <div className="testimonial_section_header">What People Say</div>
+
+        <div className="testimonial_section_container">
+          <div className="testimonial_section_container_box">
+            <div className="testimonial_section_container_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              aperiam nihil laborum neque perspiciatis numquam nisi. Corporis
+              eligendi inventore necessitatibus perferendis tempore. Laboriosam
+              consequatur cupiditate sit eligendi at, unde autem.
+            </div>
+            <div className="testimonial_profile_section">
+              <div className="testimonial_profile_pic">
+                <img src="../img/hs1.jpg" alt="" />
+              </div>
+
+              <div>
+                <div className="testimonial_profile_name">
+                    Daisy Brown
+                </div>
+
+                <div className="testimonial_profile_description">
+                    Parent
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
         </div>
       </div>
 
@@ -215,9 +305,7 @@ const App = () => {
       </div>
 
       <div className="footer">
-        <div
-          className="footer_box"
-        >
+        <div className="footer_box">
           <div className="footer_subheader">Contact Us</div>
           <div className="footer_item">
             <div className="footer_item_header">Email</div>
@@ -235,8 +323,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="footer_about_box"
-        >
+        <div className="footer_about_box">
           <div className="footer_logo">
             <img src="img/Logo.png" alt="" />
             Organick
@@ -267,9 +354,7 @@ const App = () => {
           </div>
         </div>
 
-        <div
-          className="footer_box"
-        >
+        <div className="footer_box">
           <div className="footer_utility_subheader">Utility</div>
           <div className="footer_item">
             <div className="footer_utility_text">needhelp@Organick.com</div>
@@ -287,7 +372,6 @@ const App = () => {
         </div>
       </div>
     </div>
-
   );
 };
 
