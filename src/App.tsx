@@ -79,7 +79,7 @@ const App = () => {
       </div>
 
       <div className="program_main">
-        <div className="program_main_header">WHY CHOOSE US</div>
+        <div className="program_main_header">Why Choose Us</div>
         <div className="program_box">
           <div className="program_section_one">
             <div className="program_title_one">Programs</div>
@@ -111,10 +111,82 @@ const App = () => {
         </div>
       </div>
 
+      <div className="courses_main">
+        <div className="testimonial_section_header">
+          A peek into our level courses
+        </div>
+        <div className="courses_boxes">
+          <div className="course_card">
+            <img src="../img/level1.png" alt="" className="course_card_img" />
+            <div className="course_title">Covetors Level I</div>
+            <div className="course_description">
+              <div className="courses_list_container">
+                Covetors Level I provides a comprehensive introduction to
+                programming and logical thinking. Students begin with:
+              </div>
+              <div className="courses_list">
+                {" "}
+                Animation and Games with Scratch
+              </div>
+              <div className="courses_list"> Logic with Scratch</div>
+              <div className="courses_list">
+                {" "}
+                Intro to Text-based Programming
+              </div>
+            </div>
+          </div>
+
+          <div className="course_card">
+            <img src="../img/level2.png" alt="" className="course_card_img" />
+            <div className="course_title">Covetors Level II</div>
+            <div className="course_description">
+              <div className="courses_list_container">
+                Covetors Level II offers a well-structured core course lineup.
+                It introduces students to the world of coding using the Python
+                thereby students deepen their understanding of logical thinking
+                and problem-solving through Python.
+              </div>
+              <div className="courses_list">
+                {" "}
+                Programming Fundamentals with Python
+              </div>
+              <div className="courses_list">Logic with Python</div>
+              <div className="courses_list">
+                {" "}
+                Modular Programming with Python
+              </div>
+            </div>
+          </div>
+
+          <div className="course_card">
+            <img src="../img/level3.png" alt="" className="course_card_img" />
+            <div className="course_title">Covetors Level III</div>
+            <div className="course_description">
+              <div className="courses_list_container">
+                Covetors Level III presents a comprehensive core course
+                structure to delve into web development. Students will learn the
+                fundamentals of web development by mastering HTML and CSS to
+                craft static websites.
+              </div>
+              <div className="courses_list">
+                {" "}
+                Creating Websites with HTML/CSS
+              </div>
+              <div className="courses_list">
+                Responsive Websites with HTML/CSS
+              </div>
+              <div className="courses_list">
+                {" "}
+                Interactive Websites with JavaScript
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="classes_section">
         <div className="class_box">
           <div className="class_box_content">
-            ]
             <div className="class_box_text">
               Our Personal{" "}
               <span className="span_text"> In-Person Classroom </span>
@@ -181,23 +253,13 @@ const App = () => {
               </div>
 
               <div>
-                <div className="testimonial_profile_name">
-                    Daisy Brown
-                </div>
+                <div className="testimonial_profile_name">Daisy Brown</div>
 
-                <div className="testimonial_profile_description">
-                    Parent
-                </div>
+                <div className="testimonial_profile_description">Parent</div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div className="testimonial_section">
-        <div className="testimonial_section_header">What People Say</div>
-
-        <div className="testimonial_section_container">
           <div className="testimonial_section_container_box">
             <div className="testimonial_section_container_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
@@ -207,27 +269,17 @@ const App = () => {
             </div>
             <div className="testimonial_profile_section">
               <div className="testimonial_profile_pic">
-                <img src="../img/hs1.jpg" alt="" />
+                <img src="../img/hs2.jpg" alt="" />
               </div>
 
               <div>
-                <div className="testimonial_profile_name">
-                    Daisy Brown
-                </div>
+                <div className="testimonial_profile_name">Chichi Anikpo</div>
 
-                <div className="testimonial_profile_description">
-                    Parent
-                </div>
+                <div className="testimonial_profile_description">Parent</div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-       <div className="testimonial_section">
-        <div className="testimonial_section_header">What People Say</div>
-
-        <div className="testimonial_section_container">
           <div className="testimonial_section_container_box">
             <div className="testimonial_section_container_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
@@ -237,22 +289,16 @@ const App = () => {
             </div>
             <div className="testimonial_profile_section">
               <div className="testimonial_profile_pic">
-                <img src="../img/hs1.jpg" alt="" />
+                <img src="../img/hs3.jpg" alt="" />
               </div>
 
               <div>
-                <div className="testimonial_profile_name">
-                    Daisy Brown
-                </div>
+                <div className="testimonial_profile_name">Aisha Mariam</div>
 
-                <div className="testimonial_profile_description">
-                    Parent
-                </div>
+                <div className="testimonial_profile_description">Parent</div>
               </div>
             </div>
           </div>
-
-          
         </div>
       </div>
 
@@ -309,7 +355,7 @@ const App = () => {
           <div className="footer_subheader">Contact Us</div>
           <div className="footer_item">
             <div className="footer_item_header">Email</div>
-            <div className="footer_item_text">needhelp@Organick.com</div>
+            <div className="footer_item_text">needhelp@Covetors.com</div>
           </div>
 
           <div className="footer_item">
@@ -326,7 +372,7 @@ const App = () => {
         <div className="footer_about_box">
           <div className="footer_logo">
             <img src="img/Logo.png" alt="" />
-            Organick
+            Covetors
           </div>
           <div className="footer_item">
             <div className="footer_about_text">
@@ -357,7 +403,7 @@ const App = () => {
         <div className="footer_box">
           <div className="footer_utility_subheader">Utility</div>
           <div className="footer_item">
-            <div className="footer_utility_text">needhelp@Organick.com</div>
+            <div className="footer_utility_text">needhelp@Covetors.com</div>
           </div>
 
           <div className="footer_item">

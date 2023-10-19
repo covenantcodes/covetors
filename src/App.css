@@ -113,14 +113,16 @@
 
 .program_main {
   padding: 4rem 12rem;
+  
 }
 
 .program_main_header {
-  color: #4d7a9d;
-  font-weight: 600;
-  text-align: center;
-  padding: 1rem;
+  color: #ec884d;
+  font-weight: bold;
   font-size: 1.5rem;
+  text-align: center;
+  padding: 3rem;
+  font-family: "Autour One";
 }
 
 .program_box {
@@ -141,13 +143,14 @@
 .program_section_one {
   padding: 2rem;
   border-radius: 2rem;
-  background-color: white;
+  background-color: white;  
+
 }
 
 .program_section:hover {
   background-color: white;
   transition: 0.3s all ease-in-out;
-  /* cursor: pointer; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transform: scale(1.05);
 }
 
@@ -191,6 +194,52 @@
 .program_subtitle_one {
   color: #ec884d;
   padding-top: 1rem;
+}
+
+.courses_main{
+  padding: 0rem 12rem;
+}
+
+.courses_boxes{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course_card{
+  width: 28%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+
+
+.course_card_img{
+  width: 50%;
+}
+
+.course_title{
+  padding-top: 1.5rem;
+  font-family: "Autour One";
+  font-size: 1.5rem;
+  color: #ec884d;
+  font-weight: bold;
+}
+
+.course_description{
+  padding: 1rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.courses_list{
+  padding-top:1rem;
+  font-weight: bold;
 }
 
 .classes_section {
@@ -264,8 +313,7 @@
 }
 
 .testimonial_section{
-  border: 1px solid red;
-  padding: 1rem 13rem;
+  padding: 1rem 10rem;
 }
 
 .testimonial_section_header{
@@ -274,6 +322,8 @@
   text-align: center;
   color: #ec884d;
   font-weight: bold;
+  padding: 3rem;
+
 }
 
 .testimonial_section_container{
@@ -281,24 +331,34 @@
 }
 
 .testimonial_section_container_box{
-  border: 1px solid red;
-  padding: 1rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 1rem;
   width: 30%; 
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.testimonial_section_container_text{
+  line-height: 1.6;
 }
 
 .testimonial_profile_section{
   display: flex;
   align-items: center;
+  padding-top: 2.5rem;
+
 }
 
-.testimonial_profile_pic{
-  border: 1px solid red;
-  padding-top: .5rem;
+.testimonial_profile_pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 20%;
+  overflow: hidden; /* Hide any overflow */
 }
-.testimonial_profile_pic img{
-  width: 100%;
-  border-radius: 50%;
+
+.testimonial_profile_pic img {
+  width: 90%;
 }
 
 .testimonial_profile_name{
@@ -314,13 +374,16 @@
 }
 
 .superstars_container {
-  padding: 2rem 12rem;
+  padding: 4rem 12rem;
   color: #ec884d;
   font-size: 2rem;
   font-weight: bold;
 }
 .superstar_header {
   font-family: "Autour One";
+  padding: 2rem 0rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .superstars_main {
@@ -368,6 +431,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 40px;
+  background-color: #f7e0da82;
 }
 
 .footer_box {
