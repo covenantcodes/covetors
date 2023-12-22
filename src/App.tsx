@@ -16,7 +16,7 @@ const App = () => {
                 <a href="">Courses</a>
               </li>
               <li>
-                <a href="">About Us</a>
+                <a href="./About.tsx">About Us</a>
               </li>
               <li>
                 <a href="">Teachers</a>
