@@ -326,8 +326,21 @@
   border-radius: 2rem;
   padding: 2rem;
   margin: 1rem;
-  width: 30%;
+  width: 60%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ 
+}
+
+.skew_one{
+  transform: skewX(3deg);
+}
+
+.skew_two{
+  transform: skewX(-3deg);
+}
+
+.skew_third{
+  transform: skewX(3deg);
 }
 
 .testimonial_section_container_text {

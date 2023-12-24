@@ -300,7 +300,7 @@ const App = () => {
         </div>
 
         <div className="testimonial_section_container">
-          <div className="testimonial_section_container_box">
+          <div className="testimonial_section_container_box skew_one">
             <div className="testimonial_section_container_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
               aperiam nihil laborum neque perspiciatis numquam nisi. Corporis
@@ -320,7 +320,7 @@ const App = () => {
             </div>
           </div>
 
-          <div className="testimonial_section_container_box">
+          <div className="testimonial_section_container_box skew_two">
             <div className="testimonial_section_container_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
               aperiam nihil laborum neque perspiciatis numquam nisi. Corporis
@@ -340,7 +340,7 @@ const App = () => {
             </div>
           </div>
 
-          <div className="testimonial_section_container_box">
+          <div className="testimonial_section_container_box skew_third">
             <div className="testimonial_section_container_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
               aperiam nihil laborum neque perspiciatis numquam nisi. Corporis
