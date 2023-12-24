@@ -49,9 +49,11 @@ const App = () => {
           </div>
           <div className="landing_text_body">
             <div className="landing_text">
-              <span className="span_text"> Unlock </span> your Child's{" "}
+              {/* <span className="span_text"> Unlock </span> your Child's{" "}
               <span className="span_text"> Potentials</span> with Our{" "}
-              <span className="span_text"> Exciting</span> Programs
+              <span className="span_text"> Exciting</span> Programs */}
+
+              Unlock your child's Potentials
             </div>
             <div className="landing_subtext">
               Learn at your own pace, we have tutors <br />
