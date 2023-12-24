@@ -367,44 +367,41 @@ const App = () => {
 
         <div className="superstars_main">
           <div className="superstars_box">
-            <div className="superstars_box_img_container">
-              <img src="../img/2.jpg" alt="" className="superstars_box_img" />
-            </div>
-            <div className="superstar_name_box">
-              <img
-                src="../img/uk-flag.jpg"
-                alt=""
-                className="superstars_flag_img"
-              />
-              <div className="superstar_name">Evelyn Bridgeton</div>
+            <img src="../img/2.jpg" alt="" className="superstars_box_img" />
+            <div className="superstars_tags">
+                <img
+                  src="../img/uk-flag.jpg"
+                  alt=""
+                  className="superstars_flag_img"
+                />
+
+              <div className="superstars_name"> Evelyn Bridgeton</div>
             </div>
           </div>
 
           <div className="superstars_box">
-            <div className="superstars_box_img_container">
-              <img src="../img/1.jpg" alt="" className="superstars_box_img" />
-            </div>
-            <div className="superstar_name_box">
-              <img
-                src="../img/canada.jpg"
-                alt=""
-                className="superstars_flag_img"
-              />
-              <div className="superstar_name">Leona Brown</div>
+            <img src="../img/1.jpg" alt="" className="superstars_box_img" />
+            <div className="superstars_tags">
+                <img
+                  src="../img/canada.jpg"
+                  alt=""
+                  className="superstars_flag_img"
+                />
+
+              <div className="superstars_name"> Evelyn Bridgeton</div>
             </div>
           </div>
 
           <div className="superstars_box">
-            <div className="superstars_box_img_container">
-              <img src="../img/3.jpg" alt="" className="superstars_box_img" />
-            </div>
-            <div className="superstar_name_box">
-              <img
-                src="../img/ng_flag.jpg"
-                alt=""
-                className="superstars_flag_img"
-              />
-              <div className="superstar_name">Fikayo Oluwadarasimi</div>
+            <img src="../img/3.jpg" alt="" className="superstars_box_img" />
+            <div className="superstars_tags">
+                <img
+                  src="../img/ng_flag.jpg"
+                  alt=""
+                  className="superstars_flag_img"
+                />
+
+              <div className="superstars_name"> Evelyn Bridgeton</div>
             </div>
           </div>
         </div>
