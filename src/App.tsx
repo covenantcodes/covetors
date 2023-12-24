@@ -1,5 +1,6 @@
 import "./App.css";
 import CustomButton from "./Components/Button";
+import { TypeAnimation } from "react-type-animation";
 
 const App = () => {
   return (
@@ -53,7 +54,28 @@ const App = () => {
               <span className="span_text"> Potentials</span> with Our{" "}
               <span className="span_text"> Exciting</span> Programs */}
 
-              Unlock your child's Potentials
+              {/* Unlock your child's Potentials */}
+              <TypeAnimation
+                preRenderFirstString={true}
+                sequence={[
+                  500,
+                  "Unlock your child's Potentials", // initially rendered starting point
+                  1000,
+                  "Unlock your child's Abilities",
+                  1000,
+                  "Unlock your child's Superpower",
+                  1000,
+                  "Unlock your child's Brilliance",
+                  500,
+                ]}
+                speed={6}
+                style={{
+                  fontSize: "0.9em",
+                  fontFamily: "Autour One",
+                  color: "#ec884d",
+                }}
+                repeat={Infinity}
+              />
             </div>
             <div className="landing_subtext">
               Learn at your own pace, we have tutors <br />
@@ -123,10 +145,13 @@ const App = () => {
             <div className="course_title">Covetors Level I</div>
             <div className="course_description">
               <div className="courses_list_container">
-                Covetors Level I provides a comprehensive introduction to
-                programming and logical thinking. Students begin with:
+                Covetors Level I introduces the exciting world of programming
+                and logical thinking. Students embark on a journey, starting
+                with Animation, Games, and Logic using Scratch. They gradually
+                transition into an engaging exploration of text-based
+                programming concepts.
               </div>
-              <div className="courses_list">
+              {/* <div className="courses_list">
                 {" "}
                 Animation and Games with Scratch
               </div>
@@ -134,7 +159,7 @@ const App = () => {
               <div className="courses_list">
                 {" "}
                 Intro to Text-based Programming
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -143,12 +168,13 @@ const App = () => {
             <div className="course_title">Covetors Level II</div>
             <div className="course_description">
               <div className="courses_list_container">
-                Covetors Level II offers a well-structured core course lineup.
-                It introduces students to the world of coding using the Python
-                thereby students deepen their understanding of logical thinking
-                and problem-solving through Python.
+                Covetors Level II offers a structured core lineup. It delves
+                into coding with Python, deepening students' understanding of
+                logical thinking and problem-solving. Courses include
+                Programming Fundamentals, Logic, and Modular Programming with
+                Python.
               </div>
-              <div className="courses_list">
+              {/* <div className="courses_list">
                 {" "}
                 Programming Fundamentals with Python
               </div>
@@ -156,7 +182,7 @@ const App = () => {
               <div className="courses_list">
                 {" "}
                 Modular Programming with Python
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -165,12 +191,12 @@ const App = () => {
             <div className="course_title">Covetors Level III</div>
             <div className="course_description">
               <div className="courses_list_container">
-                Covetors Level III presents a comprehensive core course
-                structure to delve into web development. Students will learn the
-                fundamentals of web development by mastering HTML and CSS to
-                craft static websites.
+                Covetors Level III presents a comprehensive course structure for
+                web development. Students learn web fundamentals, mastering HTML
+                and CSS to craft static websites. They advance to creating
+                responsive and interactive websites with JavaScript.
               </div>
-              <div className="courses_list">
+              {/* <div className="courses_list">
                 {" "}
                 Creating Websites with HTML/CSS
               </div>
@@ -180,20 +206,54 @@ const App = () => {
               <div className="courses_list">
                 {" "}
                 Interactive Websites with JavaScript
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
 
       <div className="classes_section">
+        <div className="class_box_text">
+          Our Personal In-Person Classroom encourages
+        </div>
         <div className="class_box">
           <div className="class_box_content">
-            <div className="class_box_text">
-              Our Personal{" "}
-              <span className="span_text"> In-Person Classroom </span>
-              encourges
+            <div className="classroom_benefits_main">
+              <div className="classroom_benefits_container">
+                <div className="classroom_benefits_pic_container">
+                  <img src="../img/focus.png" alt="" />
+                </div>
+                <div className="classroom_benefits_text">
+                  <div className="classroom_benefits_head_text">
+                    Improved Focus
+                  </div>
+                  <div className="classroom_benefits_text_body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quas facilis ad assumenda dolorum, voluptatum minima veniam
+                    earum quasi laborum, dolor deserunt? Modi magni sunt
+                    mollitia labore optio velit voluptate? Libero!
+                  </div>
+                </div>
+              </div>
+
+              <div className="classroom_benefits_container">
+                <div className="classroom_benefits_pic_container">
+                  <img src="../img/fast.png" alt="" />
+                </div>
+                <div className="classroom_benefits_text">
+                  <div className="classroom_benefits_head_text">
+                    Improved Focus
+                  </div>
+                  <div className="classroom_benefits_text_body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quas facilis ad assumenda dolorum, voluptatum minima veniam
+                    earum quasi laborum, dolor deserunt? Modi magni sunt
+                    mollitia labore optio velit voluptate? Libero!
+                  </div>
+                </div>
+              </div>
             </div>
+
             <div className="classroom_benefits_main">
               <div className="classroom_benefits_container">
                 <div className="classroom_benefits_pic_container">
@@ -231,15 +291,13 @@ const App = () => {
             </div>
           </div>
         </div>
-        <div className="class_box">
-          <div className="class_box_image_container">
-            <img src="../img/cartoon2.jpg" alt="" />
-          </div>
-        </div>
       </div>
 
       <div className="testimonial_section">
-        <div className="testimonial_section_header">What People Say</div>
+        <div className="testimonial_section_header">
+          Don't just take our words. <br />
+          Over 1000+ people trust us.
+        </div>
 
         <div className="testimonial_section_container">
           <div className="testimonial_section_container_box">
