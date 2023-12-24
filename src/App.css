@@ -427,51 +427,37 @@
 }
 
 .footer {
-  padding: 3rem 15rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 40px;
   background-color: #f7e0da82;
 }
 
-.footer_box {
-  width: 30%;
-  padding: 1rem;
+.footer_item_container{
   display: flex;
-  flex-direction: column;
-}
+  
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
 
-.footer_subheader {
-  font-family: "Autour One";
-  font-size: 1.3rem;
-  color: var(--primary-color);
-  padding: 1rem;
-  font-weight: bold;
-  align-self: flex-end;
 }
 
 .footer_item {
   display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
 }
 
 .footer_item_header {
   font-family: "Autour One";
-  align-self: flex-end;
   color: var(--primary-color);
-  align-self: flex-end;
 }
 
-.footer_item_text {
-  align-self: flex-end;
-}
 
 .footer_about_box {
-  width: 40%;
-  border-right: 1px solid #d4d4d4;
-  border-left: 1px solid #d4d4d4;
+  width: 80%;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -491,12 +477,30 @@
 }
 
 .footer_logo img {
-  width: 5%;
+  width: 15%;
   padding-right: 10px;
 }
 
 .footer_about_text {
   text-align: center;
+}
+
+.footer_email_sub{
+  padding: 2rem;
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+
+}
+
+.footer_email_input{
+  border: none;
+  outline: none;
+  padding: 1rem;
+  width: 83%;
+  margin-right: 1rem;
+  border-radius: 75px;
+  font-size: .9rem;
 }
 
 .footer_utility_subheader {
@@ -515,7 +519,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
 }
 
 .footer_social_box {
@@ -524,7 +528,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eff6f1;
+  background-color: #fff;
 }
 
 .fa-brands {

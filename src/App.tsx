@@ -369,11 +369,11 @@ const App = () => {
           <div className="superstars_box">
             <img src="../img/2.jpg" alt="" className="superstars_box_img" />
             <div className="superstars_tags">
-                <img
-                  src="../img/uk-flag.jpg"
-                  alt=""
-                  className="superstars_flag_img"
-                />
+              <img
+                src="../img/uk-flag.jpg"
+                alt=""
+                className="superstars_flag_img"
+              />
 
               <div className="superstars_name"> Evelyn Bridgeton</div>
             </div>
@@ -382,11 +382,11 @@ const App = () => {
           <div className="superstars_box">
             <img src="../img/1.jpg" alt="" className="superstars_box_img" />
             <div className="superstars_tags">
-                <img
-                  src="../img/canada.jpg"
-                  alt=""
-                  className="superstars_flag_img"
-                />
+              <img
+                src="../img/canada.jpg"
+                alt=""
+                className="superstars_flag_img"
+              />
 
               <div className="superstars_name"> Evelyn Bridgeton</div>
             </div>
@@ -395,11 +395,11 @@ const App = () => {
           <div className="superstars_box">
             <img src="../img/3.jpg" alt="" className="superstars_box_img" />
             <div className="superstars_tags">
-                <img
-                  src="../img/ng_flag.jpg"
-                  alt=""
-                  className="superstars_flag_img"
-                />
+              <img
+                src="../img/ng_flag.jpg"
+                alt=""
+                className="superstars_flag_img"
+              />
 
               <div className="superstars_name"> Evelyn Bridgeton</div>
             </div>
@@ -408,33 +408,53 @@ const App = () => {
       </div>
 
       <div className="footer">
-        <div className="footer_box">
-          <div className="footer_subheader">Contact Us</div>
-          <div className="footer_item">
-            <div className="footer_item_header">Email</div>
-            <div className="footer_item_text">needhelp@Covetors.com</div>
-          </div>
-
-          <div className="footer_item">
-            <div className="footer_item_header">Phone</div>
-            <div className="footer_item_text">666 888 888</div>
-          </div>
-
-          <div className="footer_item">
-            <div className="footer_item_header">Address</div>
-            <div className="footer_item_text">88 road, borklyn street, USA</div>
-          </div>
-        </div>
-
         <div className="footer_about_box">
           <div className="footer_logo">
             <img src="img/Logo.png" alt="" />
-            Covetors
           </div>
           <div className="footer_item">
             <div className="footer_about_text">
               Simply dummy text of the printing and typesetting industry. Lorem
               Ipsum simply dummy text of the printing
+            </div>
+          </div>
+
+          <div className="footer_email_sub">
+            <input
+              type="email"
+              className="footer_email_input"
+              placeholder="Subscribe to our newsletter"
+            />
+
+            <CustomButton
+              textColor="white"
+              bgColor="#ec884d"
+              text="Subscribe"
+              width="100px"
+              padding="20px"
+              fontSize="12px"
+              fontWeight="bold"
+              hoverTextColor="#E47331"
+              hoverBgColor="white"
+            />
+          </div>
+
+          <div className="footer_item_container">
+            <div className="footer_item">
+              <div className="footer_item_header">Email</div>
+              <div className="footer_item_text">needhelp@Covetors.com</div>
+            </div>
+
+            <div className="footer_item">
+              <div className="footer_item_header">Phone</div>
+              <div className="footer_item_text">666 888 888</div>
+            </div>
+
+            <div className="footer_item">
+              <div className="footer_item_header">Address</div>
+              <div className="footer_item_text">
+                88 road, borklyn street, USA
+              </div>
             </div>
           </div>
 
@@ -452,24 +472,11 @@ const App = () => {
             </div>
 
             <div className="footer_social_box">
-              <i className="fa-brands fa-pinterest"></i>
+              <i className="fa-brands fa-facebook"></i>
             </div>
-          </div>
-        </div>
 
-        <div className="footer_box">
-          <div className="footer_utility_subheader">Utility</div>
-          <div className="footer_item">
-            <div className="footer_utility_text">needhelp@Covetors.com</div>
-          </div>
-
-          <div className="footer_item">
-            <div className="footer_utility_text">666 888 888</div>
-          </div>
-
-          <div className="footer_item">
-            <div className="footer_utility_text">
-              88 road, Brooklyn street, USA
+            <div className="footer_social_box">
+              <i className="fa-brands fa-pinterest"></i>
             </div>
           </div>
         </div>
