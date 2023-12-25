@@ -30,7 +30,11 @@ const App = () => {
               </li>
             </ul>
           </div>
-          <CustomButton
+
+          <div className="get_started_btn">
+              Get Started
+          </div>
+          {/* <CustomButton
             textColor="#EC884D"
             bgColor="white"
             text="Get Started"
@@ -40,7 +44,7 @@ const App = () => {
             fontWeight="bold"
             hoverTextColor="white"
             hoverBgColor="#E47331"
-          />
+          /> */}
         </div>
 
         <div className="landing_body">
@@ -63,17 +67,17 @@ const App = () => {
                   1000,
                   "Unlock your child's Abilities",
                   1000,
-                  "Unlock your child's Superpower",
+                  "Unlock your child's Superpowers",
                   1000,
                   "Unlock your child's Brilliance",
                   500,
                 ]}
                 speed={6}
                 style={{
-                  fontSize: "0.9em",
-                  fontFamily: "Autour One",
-                  color: "#ec884d",
+              
+                  
                 }}
+                className="animation_text"
                 repeat={Infinity}
               />
             </div>
@@ -82,7 +86,11 @@ const App = () => {
               that can work with your schedules
             </div>
 
-            <CustomButton
+            <div className="get_started_btn">
+              Get Started
+          </div>
+
+            {/* <CustomButton
               textColor="white"
               bgColor="#ec884d"
               text="Get Started"
@@ -92,7 +100,7 @@ const App = () => {
               fontWeight="bold"
               hoverTextColor="#ec884d"
               hoverBgColor="white"
-            />
+            /> */}
           </div>
 
           <div className="extras">
@@ -104,32 +112,23 @@ const App = () => {
 
       <div className="program_main">
         <div className="program_main_header">Why Choose Us</div>
-        <div className="program_box">
-          <div className="program_section_one">
-            <div className="program_title_one">Programs</div>
-            <div className="program_subtitle_one">
-              Our programs are designed to <br /> develop your children
+
+        <div className="program_container">
+          <div className="program_content">
+            <div className="program_content_title">Problem Solving</div>
+            <div className="program_content_subtext">
+              Have questions or need assistance? Our support team is here to
+              help. Contact us via email or phone, and we'll get back to you
+              promptly.
             </div>
           </div>
 
-          <div className="program_section">
-            <div className="program_title">Creative Thinking</div>
-            <div className="program_subtitle">
-              Our programs are designed to <br /> develop your children
-            </div>
-          </div>
-
-          <div className="program_section_one">
-            <div className="program_title_one">Creative Thinking</div>
-            <div className="program_subtitle_one">
-              Our programs are designed to <br /> develop your children
-            </div>
-          </div>
-
-          <div className="program_section">
-            <div className="program_title">Creative Thinking</div>
-            <div className="program_subtitle">
-              Our programs are designed to <br /> develop your children
+          <div className="program_content">
+            <div className="program_content_title">Problem Solving</div>
+            <div className="program_content_subtext">
+              Have questions or need assistance? Our support team is here to
+              help. Contact us via email or phone, and we'll get back to you
+              promptly.
             </div>
           </div>
         </div>
@@ -296,7 +295,7 @@ const App = () => {
       <div className="testimonial_section">
         <div className="testimonial_section_header">
           Don't just take our words. <br />
-          Over 1000+ people trust us.
+          Over 1000+ parents trust us.
         </div>
 
         <div className="testimonial_section_container">
