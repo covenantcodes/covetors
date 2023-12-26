@@ -1,8 +1,15 @@
 import "./App.css";
-import CustomButton from "./Components/Button";
+// import CustomButton from "./Components/Button";
 import { TypeAnimation } from "react-type-animation";
+import { useState } from "react";
 
 const App = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="landing_page_main">
       <div className="landing_page">
@@ -10,6 +17,36 @@ const App = () => {
           <div className="logo_box">
             <img src="../img/logo.png" alt="" className="logo" />
           </div>
+
+          {/* Responsive Hamburger */}
+          {/* <div className="hamburger">
+            <i className="fa-solid fa-bars fa-bounce"></i>
+
+          </div> */}
+
+          <div
+            className={`hamburger ${isOpen ? "open" : ""}`}
+            onClick={toggleMenu}
+          >
+            {!isOpen ? (
+              <i className="fa-solid fa-bars fa-bounce"></i>
+            ) : (
+              <i className="fa-solid fa-xmark fa-bounce"></i>
+            )}
+          </div>
+
+          {isOpen && (
+            <div className="modal">
+              <ul>
+                <li>Courses</li>
+                <li>About Us</li>
+                <li>Teachers</li>
+                <li>Pricing</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+          )}
+
           <div className="links">
             <ul>
               <li>
@@ -31,9 +68,7 @@ const App = () => {
             </ul>
           </div>
 
-          <div className="get_started_btn">
-              Get Started
-          </div>
+          <div className="get_started_btn v1">Get Started</div>
           {/* <CustomButton
             textColor="#EC884D"
             bgColor="white"
@@ -73,10 +108,7 @@ const App = () => {
                   500,
                 ]}
                 speed={6}
-                style={{
-              
-                  
-                }}
+                style={{}}
                 className="animation_text"
                 repeat={Infinity}
               />
@@ -86,9 +118,7 @@ const App = () => {
               that can work with your schedules
             </div>
 
-            <div className="get_started_btn">
-              Get Started
-          </div>
+            <div className="get_started_btn v2">Get Started</div>
 
             {/* <CustomButton
               textColor="white"
@@ -425,7 +455,7 @@ const App = () => {
               placeholder="Subscribe to our newsletter"
             />
 
-            <CustomButton
+            {/* <CustomButton
               textColor="white"
               bgColor="#ec884d"
               text="Subscribe"
@@ -435,7 +465,9 @@ const App = () => {
               fontWeight="bold"
               hoverTextColor="#E47331"
               hoverBgColor="white"
-            />
+            /> */}
+
+            <div className="get_started_btn v2">Get Started</div>
           </div>
 
           <div className="footer_item_container">
