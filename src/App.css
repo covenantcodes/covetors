@@ -579,56 +579,70 @@
   .extras_one {
     margin-top: 4rem;
   }
-  
+
   .extras_img {
     width: 15%;
   }
 
-  .animation_text{
+  .animation_text {
     font-size: 2rem;
   }
 
-  .landing_text_body{
+  .landing_text_body {
     width: 80%;
   }
 
-  .get_started_btn{
-    font-size: .8rem;
+  .get_started_btn {
+    font-size: 0.8rem;
     width: 80px;
   }
 
-  .program_main{
+  .program_main {
     padding-top: 4rem;
   }
-  
-  .program_main_header{
+
+  .program_main_header {
     font-size: 1.2rem;
   }
 
-
-  .program_content{
+  .program_content {
     width: 40%;
   }
-  .program_content_title{
-    font-size: .8rem;
+  .program_content_title {
+    font-size: 0.8rem;
   }
 
-  .program_content_subtext{
-    font-size: .7rem
+  .program_content_subtext {
+    font-size: 0.7rem;
   }
 
-  .testimonial_section_header{
+  .testimonial_section_header {
     font-size: 1.2rem;
   }
 
-  .course_card_img{
-width: 33%;
+  .course_card {
+    width: 30%;
+    padding: .5rem
+
   }
 
-  .course_title{
+  .courses_list_container {
+    font-size: 0.8rem;
+  }
+
+  .course_card_img {
+    width: 33%;
+  }
+
+  .course_title {
     font-size: 1rem;
   }
 
+  .class_box_text{
+    font-size: 1.2rem;
+  }
+
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -757,7 +771,7 @@ width: 33%;
     display: block;
   }
 
-  .hamburger{
+  .hamburger {
     display: none;
   }
 }

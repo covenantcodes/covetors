@@ -216,25 +216,17 @@ const App = () => {
           </div>
 
           <div className="course_card">
-            <img src="../img/level.3png" alt="" className="course_card_img" />
+            <img src="../img/level3.png" alt="" className="course_card_img" />
             <div className="course_title">Covetors Level II</div>
             <div className="course_description">
               <div className="courses_list_container">
-                Covetors Level II offers a structured core lineup. It delves
+                Covetors Level III offers a structured core lineup. It delves
                 into coding with Python, deepening students' understanding of
                 logical thinking and problem-solving. Courses include
                 Programming Fundamentals, Logic, and Modular Programming with
                 Python.
               </div>
-              {/* <div className="courses_list">
-                {" "}
-                Programming Fundamentals with Python
-              </div>
-              <div className="courses_list">Logic with Python</div>
-              <div className="courses_list">
-                {" "}
-                Modular Programming with Python
-              </div> */}
+             
             </div>
           </div>
 
