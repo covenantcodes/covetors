@@ -99,11 +99,11 @@ const App = () => {
                 sequence={[
                   500,
                   "Unlock your child's Potentials", // initially rendered starting point
-                  1000,
+                  500,
                   "Unlock your child's Abilities",
-                  1000,
+                  500,
                   "Unlock your child's Superpowers",
-                  1000,
+                  500,
                   "Unlock your child's Brilliance",
                   500,
                 ]}
@@ -216,28 +216,29 @@ const App = () => {
           </div>
 
           <div className="course_card">
-            <img src="../img/level3.png" alt="" className="course_card_img" />
-            <div className="course_title">Covetors Level III</div>
+            <img src="../img/level.3png" alt="" className="course_card_img" />
+            <div className="course_title">Covetors Level II</div>
             <div className="course_description">
               <div className="courses_list_container">
-                Covetors Level III presents a comprehensive course structure for
-                web development. Students learn web fundamentals, mastering HTML
-                and CSS to craft static websites. They advance to creating
-                responsive and interactive websites with JavaScript.
+                Covetors Level II offers a structured core lineup. It delves
+                into coding with Python, deepening students' understanding of
+                logical thinking and problem-solving. Courses include
+                Programming Fundamentals, Logic, and Modular Programming with
+                Python.
               </div>
               {/* <div className="courses_list">
                 {" "}
-                Creating Websites with HTML/CSS
+                Programming Fundamentals with Python
               </div>
-              <div className="courses_list">
-                Responsive Websites with HTML/CSS
-              </div>
+              <div className="courses_list">Logic with Python</div>
               <div className="courses_list">
                 {" "}
-                Interactive Websites with JavaScript
+                Modular Programming with Python
               </div> */}
             </div>
           </div>
+
+ 
         </div>
       </div>
 

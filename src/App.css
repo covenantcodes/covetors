@@ -94,13 +94,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* text-align: center; */
-  border: 3px solid red;
   width: 60%;
 }
 
 .landing_text {
-  /* border: 1px solid blue; */
   width: 100%;
   text-align: center;
   font-size: 56px;
@@ -383,7 +380,6 @@
 }
 
 .superstars_box {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -395,7 +391,6 @@
 }
 
 .superstars_tags {
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -577,6 +572,63 @@
     color: #333333;
     cursor: pointer;
   }
+
+  .extras {
+    padding-top: 5rem;
+  }
+  .extras_one {
+    margin-top: 4rem;
+  }
+  
+  .extras_img {
+    width: 15%;
+  }
+
+  .animation_text{
+    font-size: 2rem;
+  }
+
+  .landing_text_body{
+    width: 80%;
+  }
+
+  .get_started_btn{
+    font-size: .8rem;
+    width: 80px;
+  }
+
+  .program_main{
+    padding-top: 4rem;
+  }
+  
+  .program_main_header{
+    font-size: 1.2rem;
+  }
+
+
+  .program_content{
+    width: 40%;
+  }
+  .program_content_title{
+    font-size: .8rem;
+  }
+
+  .program_content_subtext{
+    font-size: .7rem
+  }
+
+  .testimonial_section_header{
+    font-size: 1.2rem;
+  }
+
+  .course_card_img{
+width: 33%;
+  }
+
+  .course_title{
+    font-size: 1rem;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -698,7 +750,14 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .landing_body {
-    border: 1px solid red;
+  .links {
+    display: block;
+  }
+  .v1 {
+    display: block;
+  }
+
+  .hamburger{
+    display: none;
   }
 }
