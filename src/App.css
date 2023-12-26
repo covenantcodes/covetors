@@ -642,7 +642,17 @@
     font-size: 1.2rem;
   }
 
-  
+  .classroom_benefits_head_text{
+    font-size: 1rem
+  }
+
+  .classroom_benefits_text_body{
+    font-size: .8rem;
+  }
+
+  .classroom_benefits_pic_container img{
+    width: 160%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
