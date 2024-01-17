@@ -56,7 +56,7 @@
 .get_started_btn {
   width: 100px;
   background-color: white;
-  padding: 20px;
+  padding: 20px;  
   font-size: 15px;
   text-align: center;
   border-radius: 73px;
@@ -98,12 +98,13 @@
 }
 
 .landing_text {
+  border: 1px solid red;
   width: 100%;
   text-align: center;
   font-size: 56px;
   font-weight: 500;
   font-family: "Autour One";
-  height: 20vh;
+  height: 10vh;
 }
 
 .animation_text {
@@ -480,6 +481,11 @@
   font-size: 0.9rem;
 }
 
+.footer_item_container{
+  border: 1px solid red;
+  width: 100%;
+}
+
 .footer_utility_subheader {
   font-family: "Autour One";
   font-size: 1.3rem;
@@ -622,8 +628,7 @@
 
   .course_card {
     width: 30%;
-    padding: .5rem
-
+    padding: 0.5rem;
   }
 
   .courses_list_container {
@@ -638,21 +643,84 @@
     font-size: 1rem;
   }
 
-  .class_box_text{
+  .class_box_text {
     font-size: 1.2rem;
   }
 
-  .classroom_benefits_head_text{
-    font-size: 1rem
+  .classroom_benefits_head_text {
+    font-size: 1rem;
   }
 
-  .classroom_benefits_text_body{
-    font-size: .8rem;
+  .classroom_benefits_text_body {
+    font-size: 0.8rem;
   }
 
-  .classroom_benefits_pic_container img{
+  .classroom_benefits_pic_container img {
     width: 160%;
   }
+
+  .testimonial_section_container_text {
+    font-size: 0.8rem;
+  }
+
+  .testimonial_profile_name {
+    font-size: 0.6rem;
+  }
+
+  .testimonial_profile_description {
+    font-size: 0.6rem;
+  }
+
+  .superstar_header {
+    font-size: 1.3rem;
+  }
+
+  .superstars_main {
+    padding-top: 0rem;
+  }
+
+  .superstars_box_img {
+    width: 80%;
+  }
+
+  .superstars_flag_img {
+    width: 15%;
+  }
+
+  .superstars_name {
+    font-size: 0.8rem;
+  }
+
+  .footer_logo{
+    width: 150%;
+  }
+
+  .footer_about_text{
+    font-size: .9rem;
+  }
+
+.footer_email_sub{
+  width: 100%;
+  font-size: .8rem;
+}
+
+.v2{
+  width: 15%;
+  font-size: .7rem;
+}
+
+
+
+.footer_item_header{
+  font-size: .8rem;
+}
+
+.footer_item_text{
+  /* border: 1px solid red; */
+  width: 100%;
+  /* padding: 0rem 1rem; */
+  font-size: .7rem;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -662,12 +730,12 @@
   }
 
   .links ul li a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .get_started_btn {
-    font-size: 0.7rem;
-    width: 65px;
+    font-size: 0.8rem;
+    width: 6%;
   }
 
   .logo {
@@ -771,7 +839,7 @@
     width: 100%;
   }
 }
-
+ 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .links {
@@ -781,7 +849,43 @@
     display: block;
   }
 
+  .v2{
+    width: 9%;
+  }
+
   .hamburger {
     display: none;
   }
+
+ .extras_one{
+  margin-top: 3rem;
+ }
+
+ .extras_img{
+  width: 8%;
+ }
+
+ .course_card_img{
+  width: 30%;
+ }
+
+ .classroom_benefits_pic_container{
+  width: 20%;
+ }
+
+ .superstar_header{
+  margin-bottom: 1rem;
+ }
+
+ .superstars_box_img{
+  width: 60%;
+ }
+
+ .superstars_flag_img{
+  width: 10%;
+ }
+
+ .footer_logo{
+  width: 80%
+ }
 }

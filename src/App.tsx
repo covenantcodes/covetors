@@ -226,11 +226,8 @@ const App = () => {
                 Programming Fundamentals, Logic, and Modular Programming with
                 Python.
               </div>
-             
             </div>
           </div>
-
- 
         </div>
       </div>
 
@@ -471,7 +468,7 @@ const App = () => {
 
             <div className="footer_item">
               <div className="footer_item_header">Phone</div>
-              <div className="footer_item_text">666 888 888</div>
+              <div className="footer_item_text">+234 91 522 522 58</div>
             </div>
 
             <div className="footer_item">
